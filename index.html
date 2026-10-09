@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universidad César Vallejo · Bienvenidos</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #0b3d91, #1e6fd9);
+      color: #ffffff;
+      text-align: center;
+      padding: 1.5rem;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      margin: 0 0 0.5rem;
+    }
+    .subtitulo {
+      font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+      margin: 0 0 2rem;
+      opacity: 0.9;
+    }
+    .registro {
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      font-weight: 600;
+      margin: 0 0 1rem;
+    }
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .botones button {
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.85rem 1.75rem;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      background: #ffffff;
+      color: #0b3d91;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .botones button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Universidad César Vallejo</h1>
+  <p class="subtitulo">Bienvenido/a, estudiantes</p>
+  <p class="registro">Regístrate</p>
+  <div class="botones">
+    <button type="button">Ir al aUCV</button>
+    <button type="button">Conoce nuestra historia</button>
+  </div>
+</body>
+</html>
